@@ -1,9 +1,6 @@
-.page-hader {
-    @extend %flex;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+.page-hader{
+    background-color: $background-light;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav{
@@ -14,11 +11,10 @@
     @extend %flex;
 }
 
-.page-hader{
-    background-color: $background-light;
-    border-bottom: 1px solid #ECECEC;
-}
+.page-hader__conteiner{
+    @extend %flex;
 
+}
 .main-nav__link{
     position: relative;
     display: block;
@@ -35,8 +31,6 @@
             color: $interactive;
         }
 }
-
-
 
 
 .main-nav__link::after{
